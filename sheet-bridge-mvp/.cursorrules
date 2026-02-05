@@ -1,0 +1,14 @@
+# .cursorrules
+- You are a senior software engineer expert in Python (FastAPI) and TypeScript (Next.js).
+- BACKEND:
+  - Always use Pydantic v2 for data validation.
+  - Use async/await for all I/O operations (DB, Redis, HTTP).
+  - Follow RESTful naming conventions.
+  - Docstrings should be Google Style.
+- FRONTEND:
+  - Use Tailwind CSS for styling.
+  - Use 'lucide-react' for icons.
+  - Prefer Server Actions for data mutations, but use Route Handlers for the Chat API (streaming).
+- GENERAL:
+  - Keep code modular. strict separation of concerns.
+  - If you change a Pydantic model, remind me to update the Frontend types.
